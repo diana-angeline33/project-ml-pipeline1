@@ -13,7 +13,7 @@ Not knowing what to study as exam season gets closer is quite a common issue fac
 This project addresses this challenge by developing an ML-based tool that identifies the most frequently tested topics from past question papers. By highlighting high-priority areas, the model supports more efficient and targeted revision, reducing cognitive load and helping students make strategic decisions about their study efforts. The tool has the potential to improve learning outcomes by enabling focused revision in time-sensitive situations and contributes to the broader field of learning analytics by leveraging historical assessment data.
 
 ## Input Data Description
-The model will accept historical examination data in both textual and image formats. PDFs or scanned question papers must first be converted into readable text or images, allowing the model to process the content effectively.
+The model will accept historical examination data in both textual and image formats. The model does not currently support PDF inputs, although it is considered for future implementation. PDFs or scanned question papers must first be converted into readable text or images, allowing the model to process the content effectively.
 
 The expected input includes prior question papers with essential metadata, such as subject and year of the exam. The model will analyze the textual and visual content of questions to identify patterns and frequently tested topics.
 
